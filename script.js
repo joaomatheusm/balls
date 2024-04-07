@@ -45,6 +45,8 @@ class Ball {
 
         div.addEventListener('click', (evt) => {
             evt.target.remove();
+            ballCount--;
+            objects_num.innerHTML = ballCount;
         });
     }
 
