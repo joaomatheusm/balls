@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Objetos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="controls" class="controls">
+        <div class="control">
+            <label>Número de objetos</label>
+            <p id="objects-num">0</p>
+        </div>
+        <div class="control">
+            <label>Quantidade objetos</label>
+            <input type="number" value="0" min="0" id="amount-text">
+            <button id="add-btn">Adicionar</button>
+        </div>
+        <div class="control" id="remove">
+            <button id="remove-btn">Remover todos</button>
+            <p>Clique em cima da bola para remover individualmente</p>
+        </div>
+    </div>
+    <div id="stage" class="stage"></div>
+    <script src="script.js"></script>
+</body>
+</html>
